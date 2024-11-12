@@ -1,0 +1,81 @@
+footer {
+  margin-top: 1rem;
+}
+
+footer .MuiTypography-root {
+  margin-bottom: 10px;
+}
+
+footer .MuiTextField-root {
+  background-color: #333;
+}
+
+footer .MuiButton-root {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+}
+
+footer .MuiButton-root:hover {
+  background-color: #ddd;
+}
+
+footer a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .icon {
+  transition: 0.3s;
+}
+
+footer .icon:hover {
+  cursor: pointer;
+  scale: 1.4 !important;
+  transition: 0.3s;
+  text-decoration: none !important;
+  color: var(--head);
+}
+
+footer .icons {
+  margin-top: 2rem;
+  gap: 2rem;
+  font-size: 1.2rem;
+  color: var(--subtitle);
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  footer {
+    padding: 1rem;
+    margin-top: 500px !important;
+    text-align: center;
+  }
+
+  footer .MuiTypography-root {
+    font-size: 0.9rem;
+  }
+
+  footer .MuiButton-root {
+    width: 100%;
+  }
+
+  footer .icons {
+    gap: 1.5rem;
+    font-size: 1rem;
+  }
+
+  /* Adjust icon hover effect for smaller screens */
+  footer .icon:hover {
+    scale: 1.2 !important;
+  }
+  .d-app {
+    width: 50px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}

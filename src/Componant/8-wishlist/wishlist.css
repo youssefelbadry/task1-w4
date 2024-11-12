@@ -1,0 +1,22 @@
+.tob-sec-wish{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tob-small-sec-wish{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.button-wish{
+    border :1px solid black !important;
+    color: black !important;
+}
+.tob-small-sec-wish .button-wish:hover{
+background-color:var(--head);
+color: white !important;
+border :1px solid var(--head) !important;
+
+}

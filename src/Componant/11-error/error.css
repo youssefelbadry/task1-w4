@@ -1,0 +1,59 @@
+.sec-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+    padding: 25px;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .sec-error h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  .sec-error p {
+    font-size: 18px;
+    max-width: 500px;
+  }
+  
+  .sec-error button {
+    padding: 10px 25px;
+    background-color: var(--head);
+    color: #fff;
+    transition: 0.3s !important;
+
+  }
+  
+  .sec-error button:hover {
+    transition: 0.3s !important;
+    scale: 1.05;
+  }
+  
+  @media (max-width: 1024px) {
+    .sec-error h1 {
+      font-size: 80px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sec-error h1 {
+      font-size: 60px;
+    }
+    .sec-error p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sec-error h1 {
+      font-size: 40px;
+    }
+    .sec-error p {
+      font-size: 14px;
+    }
+  }
+  

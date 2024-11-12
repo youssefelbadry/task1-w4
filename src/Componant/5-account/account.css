@@ -1,0 +1,98 @@
+/* Main grid container for layout */
+.gridContainer {
+  display: grid;
+  grid-template-columns: 220px 1fr; /* Sidebar takes 220px */
+  gap: 35px;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Sidebar styles */
+.sidebar-container {
+  width: 100%;
+}
+
+.active-item {
+  color: red;
+}
+
+.inactive-item {
+  color: gray;
+}
+
+/* Form container styles */
+.formContainer {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.formTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+.text-feild-tmp .MuiOutlinedInput-notchedOutline {
+  border-color: transparent;
+  background-color: rgba(207, 204, 204, 0.264) !important;
+  transition: 0.2 ease !important;
+}
+
+.text-feild-tmp:hover .MuiOutlinedInput-notchedOutline {
+  border-color: var(--head) !important;
+}
+
+.text-feild-tmp
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--head);
+}
+
+/* Label styles for inputs */
+.inputLabel {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Button container */
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.saveButton {
+  background-color: var(--head) !important;
+  color: #fff;
+  transition: 0.2s ease !important;
+  padding: 10px 25px !important;
+}
+
+.saveButton:hover {
+  background-color: var(--head);
+  scale: 1.02;
+}
+
+.cancelButton {
+  color: #000 !important;
+  padding: 8px 20px;
+  border: 0 !important;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+}

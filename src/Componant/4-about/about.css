@@ -1,0 +1,143 @@
+.about {
+  margin-top: 150px;
+}
+.hero-about {
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+}
+.left-hero-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding: 3rem;
+  width: 80%;
+}
+.right-hero-about {
+  background-image: url(/public/image/right.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+@media (max-width: 900px) {
+  .hero-about {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+  }
+  .left-hero-about {
+    margin: auto;
+    padding: 0;
+  }
+}
+/* ============================================================== */
+/* Main Paper */
+.main-paper {
+  margin-top: 100px;
+}
+section.about .paper-about {
+  transition: 0.3s ease !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid rgba(116, 114, 114, 0.754);
+  border-bottom: 0;
+}
+section.about .paper-about h1 {
+  font-size: xx-large;
+  padding: 7px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+section.about .paper-about .father-icon-about {
+  background-color: rgb(199, 205, 205);
+  border-radius: 50%;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.paper-about:hover {
+  scale: 1.05;
+  transition: 0.3s ease;
+  background-color: var(--head);
+  color: white;
+  border: 0;
+}
+.paper-about:hover h1 {
+  color: black !important;
+  background-color: white !important;
+}
+.paper-about:hover .father-icon-about {
+  background-color: rgba(199, 205, 205, 0.846);
+}
+/* ========================================================= */
+/* Owner About */
+.owner-about {
+  margin-top: 100px;
+}
+/* =============================================================== */
+/* Dlivary About */
+.dlivary-about {
+  margin: 100px;
+}
+ .paper-dlivary {
+  transition: 0.3s ease !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0 !important;
+}
+ .paper-dlivary h1 {
+  font-size: xx-large;
+  padding: 7px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ .paper-dlivary .father-icon-dlivary {
+  background-color: rgb(199, 205, 205);
+  border-radius: 50%;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.paper-dlivary:hover {
+  scale: 1.05;
+  transition: 0.3s ease;
+  background-color: var(--head);
+  color: white;
+  border: 0;
+}
+.paper-dlivary:hover h1 {
+  color: black !important;
+  background-color: white !important;
+}
+.paper-dlivary:hover .father-icon-dlivary {
+  background-color: rgba(199, 205, 205, 0.846);
+}
+@media (max-width:600px){
+  .owner{
+    margin: auto;
+  }
+  
+}

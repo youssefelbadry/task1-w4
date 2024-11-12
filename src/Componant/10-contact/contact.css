@@ -1,0 +1,86 @@
+.sec-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13%;
+    margin-bottom: 150px;
+  }
+  
+  .left-sec-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: start;
+    padding: 55px;
+    width: 385px;
+  }
+  
+  .tob-left-sec-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-bottom: 0.5px solid rgb(103, 102, 102);
+    padding-bottom: 35px;
+  }
+  
+  .bottom-left-sec-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .icon-contact {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--head);
+    font-size: 25px;
+    color: white;
+  }
+  
+  .right-sec-contact {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  
+  .tob-right-sec-contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bottom-right-sec-contact textarea {
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  
+  .bottom-right-sec-contact {
+    text-align: end;
+  }
+  .bottom-right-sec-contact button{
+    background-color: var(--head);
+  }
+  
+  @media (max-width: 900px) {
+    .sec-contact {
+      flex-direction: column;
+    }
+  
+    .left-sec-contact,
+    .right-sec-contact {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .tob-right-sec-contact {
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+  
+    .bottom-right-sec-contact {
+      text-align: center;
+    }
+  }
+  

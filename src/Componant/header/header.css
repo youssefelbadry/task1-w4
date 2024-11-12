@@ -1,0 +1,31 @@
+.custom-app-bar{
+     background-color: var(--dark) !important;
+    color: var(--title) !important; 
+    
+}
+
+.custom-app-bar button{
+    color: var(--title);
+}
+
+.search{
+    background-color: var(--secondary) !important;
+}
+.menu-items-header {
+    background: linear-gradient(to right, black, white) !important; 
+    color: white !important; 
+  }
+  
+  .menu-items-header .MuiListItemIcon-root {
+    color: white !important;
+  }
+  
+  .menu-items-header .MuiTypography-root {
+    color: white !important; 
+  }
+@media (max-width: 600px) {
+    .show-md {
+      display: none !important;
+    }
+  }
+  
